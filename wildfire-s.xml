@@ -227,6 +227,6 @@
   <project name="projects/marvel/android_device_htc_marvel.git" path="device/htc/marvel" remote="cryptomilk" />
   <project name="projects/marvel/android_vendor_htc_proprietary.git" path="vendor/htc" remote="cryptomilk" />
   <project name="projects/marvel/kernel_htc_msm7227.git" path="kernel/htc/msm7277" remote="cryptomilk" />
-  <project name="cm9-marvel-flaming-fixes" remote="thelegbra" />
+  <project name="cm9-marvel-flaming-fixes" path="benjamingwynn/cm9-marvel-flaming-fixes.git" remote="thelegbra" />
 
 </manifest>
