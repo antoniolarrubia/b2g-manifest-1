@@ -17,15 +17,11 @@
   <remote name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
 
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/ics"
-           remote="github"
-           sync-c="true"
+  <default revision="refs/tags/android-4.0.4_r1.2"
+           remote="linaro"
            sync-j="4" />
 
 
