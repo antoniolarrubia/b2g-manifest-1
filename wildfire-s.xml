@@ -34,7 +34,7 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="android_bionic" name="android_bionic" remote="cyanogenmod" revision="ics" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -133,7 +133,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Wildfire S things -->
-  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" remote="cyanogenmod" />
+  <project name="android_device_htc_common" path="device/htc/common" revision="gingerbread" remote="cyanogenmod" />
   <project name="projects/marvel/android_device_htc_marvel.git" path="device/htc/marvel" remote="cryptomilk" />
   <project name="projects/marvel/android_vendor_htc_proprietary.git" path="vendor/htc" remote="cryptomilk" />
   <project name="projects/marvel/kernel_htc_msm7227.git" path="kernel/htc/msm7277" remote="cryptomilk" />
